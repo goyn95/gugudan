@@ -1,32 +1,37 @@
 package gugudan;
+import java.util.Scanner;
 
 public class gugudan1 {
 
 	public static void main(String[] args) {
 
 		
-		//4
-		int result = 4 * 1;
+		//4단 
+		System.out.println("구구단 중 출력할 단은? : ");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		System.out.println("number: " + number);
+		
+		int result = number * 1;
+		System.out.println(result);
+		result = number*2;
+		System.out.println(result);
+		result = number*3;
+		System.out.println(result);
+		result = number*4;
+		System.out.println(result);
+		result = number*5;
+		System.out.println(result);
+		result = number*6;
+		System.out.println(result);
+		result = number*7;
+		System.out.println(result);
+		result = number*8;
+		System.out.println(result);
+		result = number*9;
 		System.out.println(result);
 		
-		result = 4*2;
-		System.out.println(result);
-		result = 4*3;
-		System.out.println(result);
-		result = 4*4;
-		System.out.println(result);
-		result = 4*5;
-		System.out.println(result);
-		result = 4*6;
-		System.out.println(result);
-		result = 4*7;
-		System.out.println(result);
-		result = 4*8;
-		System.out.println(result);
-		result = 4*9;
-		System.out.println(result);
-		
-		//5
+		//5단
 		result = 5*1;
 		System.out.println(result);
 		result = 5*2;
