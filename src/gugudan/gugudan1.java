@@ -6,14 +6,22 @@ public class gugudan1 {
 	public static void main(String[] args) {
 
 		//배열을 사용
-		System.out.println("숫자를 입력하세요. : ");
-		Scanner scan = new Scanner(System.in);
-		int number = scan.nextInt(); 
+//		System.out.println("숫자를 입력하세요. : ");
+//		Scanner scan = new Scanner(System.in);
+//		int number = scan.nextInt(); 
+//		
+//		int[] result = new int[9];
+//		for (int i = 0; i < 9; i++) {
+//			result[i] = number * (i+1);
+//			System.out.println(result[i]);
+//		}
 		
-		int[] result = new int[9];
-		for (int i = 0; i < 9; i++) {
-			result[i] = number * (i+1);
-			System.out.println(result[i]);
+		int[][] array = new int[9][9];
+		for (int i = 0; i < array.length-1; i++) {
+			for (int j = 0; j < 9; j++) {
+				array[i][j] = (i + 2) * (j + 1);
+				System.out.println(array[i][j]);
+			}
 		}
 		
 		
