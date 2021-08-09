@@ -21,6 +21,12 @@ public class gugudan1 {
 			i++;
 		}
 		
+		int result2 = 0;
+		for(int j = 1; j<10;j++) {
+			result2 = number * j;
+			System.out.println(result2);
+		}
+		
 		
 //		int result = number * 1;
 //		System.out.println(result);
