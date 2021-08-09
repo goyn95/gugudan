@@ -6,50 +6,60 @@ public class gugudan1 {
 	public static void main(String[] args) {
 
 		
+		
 		//4단 
 		System.out.println("구구단 중 출력할 단은? : ");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
-		System.out.println("number: " + number);
+		//System.out.println("number: " + number);
 		
-		int result = number * 1;
-		System.out.println(result);
-		result = number*2;
-		System.out.println(result);
-		result = number*3;
-		System.out.println(result);
-		result = number*4;
-		System.out.println(result);
-		result = number*5;
-		System.out.println(result);
-		result = number*6;
-		System.out.println(result);
-		result = number*7;
-		System.out.println(result);
-		result = number*8;
-		System.out.println(result);
-		result = number*9;
-		System.out.println(result);
+		int i = 1;
+		int result = 0;
+		while(i<10) {
+			result = number * i;
+			System.out.println(result);
+			i++;
+		}
 		
-		//5단
-		result = 5*1;
-		System.out.println(result);
-		result = 5*2;
-		System.out.println(result);
-		result = 5*3;
-		System.out.println(result);
-		result = 5*4;
-		System.out.println(result);
-		result = 5*5;
-		System.out.println(result);
-		result = 5*6;
-		System.out.println(result);
-		result = 5*7;
-		System.out.println(result);
-		result = 5*8;
-		System.out.println(result);
-		result = 5*9;
-		System.out.println(result);
+		
+//		int result = number * 1;
+//		System.out.println(result);
+//		result = number*2;
+//		System.out.println(result);
+//		result = number*3;
+//		System.out.println(result);
+//		result = number*4;
+//		System.out.println(result);
+//		result = number*5;
+//		System.out.println(result);
+//		result = number*6;
+//		System.out.println(result);
+//		result = number*7;
+//		System.out.println(result);
+//		result = number*8;
+//		System.out.println(result);
+//		result = number*9;
+//		System.out.println(result);
+//		
+//		//5단
+//		result = 5*1;
+//		System.out.println(result);
+//		result = 5*2;
+//		System.out.println(result);
+//		result = 5*3;
+//		System.out.println(result);
+//		result = 5*4;
+//		System.out.println(result);
+//		result = 5*5;
+//		System.out.println(result);
+//		result = 5*6;
+//		System.out.println(result);
+//		result = 5*7;
+//		System.out.println(result);
+//		result = 5*8;
+//		System.out.println(result);
+//		result = 5*9;
+//		System.out.println(result);
 		
 		// 2단
 //		System.out.println(2*1);
