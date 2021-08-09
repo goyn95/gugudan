@@ -5,27 +5,37 @@ public class gugudan1 {
 
 	public static void main(String[] args) {
 
+		System.out.println("숫자를 입력하세요. : ");
+		Scanner scan = new Scanner(System.in);
+		int number = scan.nextInt();
 		
-		
-		//4단 
-		System.out.println("구구단 중 출력할 단은? : ");
-		Scanner scanner = new Scanner(System.in);
-		int number = scanner.nextInt();
-		//System.out.println("number: " + number);
-		
-		int i = 1;
-		int result = 0;
-		while(i<10) {
-			result = number * i;
-			System.out.println(result);
-			i++;
+		if(number < 2 || number >9) {
+			System.out.println("2이상, 9이하의 값 입력할 수 있습니다.");
 		}
-		
-		int result2 = 0;
-		for(int j = 1; j<10;j++) {
-			result2 = number * j;
-			System.out.println(result2);
+		else {
+			for (int i = 1; i < 10; i++) {
+				System.out.println(number * i);
+			}
 		}
+//		//4단 
+//		System.out.println("구구단 중 출력할 단은? : ");
+//		Scanner scanner = new Scanner(System.in);
+//		int number = scanner.nextInt();
+//		//System.out.println("number: " + number);
+//		
+//		int i = 1;
+//		int result = 0;
+//		while(i<10) {
+//			result = number * i;
+//			System.out.println(result);
+//			i++;
+//		}
+//		
+//		int result2 = 0;
+//		for(int j = 1; j<10;j++) {
+//			result2 = number * j;
+//			System.out.println(result2);
+//		}
 		
 		
 //		int result = number * 1;
