@@ -5,9 +5,33 @@ public class gugudan1 {
 
 	public static void main(String[] args) {
 
+		//배열을 사용
 		System.out.println("숫자를 입력하세요. : ");
 		Scanner scan = new Scanner(System.in);
-		int number = scan.nextInt();
+		int number = scan.nextInt(); 
+		
+		int[] result = new int[9];
+		for (int i = 0; i < 9; i++) {
+			result[i] = number * (i+1);
+			System.out.println(result[i]);
+		}
+		
+		
+//		System.out.println("숫자를 입력하세요. : ");
+//		Scanner scan = new Scanner(System.in);
+//		int number = scan.nextInt();
+//		System.out.println(number);
+//		
+//		if(number < 2) {
+//			System.out.println("값을 잘못 입력했습니다.");
+//		} else if(number > 9){
+//			System.out.println("값을 잘못 입력했습니다.");
+//		} else {
+//			for(int i = 1; i < 10; i++) {
+//				System.out.println(number * i);
+//			}
+//		}
+		
 //		
 //		if(number < 2 || number >9) {
 //			System.out.println("2이상, 9이하의 값 입력할 수 있습니다.");
@@ -17,24 +41,24 @@ public class gugudan1 {
 //				System.out.println(number * i);
 //			}
 //		}
-		
-		while(true) {
-			if(number >= 2 && number <= 9) {
-				for (int i = 1; i < 10; i++) {
-					System.out.println(number * i);
-					break;
-				}
-			}
-			else {
-				System.out.println("숫자를 다시 입력하세요 : ");
-				Scanner nscan = new Scanner(System.in);
-				int nnumber = scan.nextInt();
-				for (int i = 1; i < 10; i++) {
-					System.out.println(nnumber * i);
-					continue;
-				}
-			}
-		}
+//		
+//		while(true) {
+//			if(number >= 2 && number <= 9) {
+//				for (int i = 1; i < 10; i++) {
+//					System.out.println(number * i);
+//					break;
+//				}
+//			}
+//			else {
+//				System.out.println("숫자를 다시 입력하세요 : ");
+//				Scanner nscan = new Scanner(System.in);
+//				int nnumber = scan.nextInt();
+//				for (int j = 1; j < 10; j++) {
+//					System.out.println(nnumber * j);
+//					continue;
+//				}
+//			}
+//		}
 //		//4단 
 //		System.out.println("구구단 중 출력할 단은? : ");
 //		Scanner scanner = new Scanner(System.in);
