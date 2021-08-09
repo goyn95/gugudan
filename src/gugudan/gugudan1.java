@@ -8,13 +8,31 @@ public class gugudan1 {
 		System.out.println("숫자를 입력하세요. : ");
 		Scanner scan = new Scanner(System.in);
 		int number = scan.nextInt();
+//		
+//		if(number < 2 || number >9) {
+//			System.out.println("2이상, 9이하의 값 입력할 수 있습니다.");
+//		}
+//		else {
+//			for (int i = 1; i < 10; i++) {
+//				System.out.println(number * i);
+//			}
+//		}
 		
-		if(number < 2 || number >9) {
-			System.out.println("2이상, 9이하의 값 입력할 수 있습니다.");
-		}
-		else {
-			for (int i = 1; i < 10; i++) {
-				System.out.println(number * i);
+		while(true) {
+			if(number >= 2 && number <= 9) {
+				for (int i = 1; i < 10; i++) {
+					System.out.println(number * i);
+					break;
+				}
+			}
+			else {
+				System.out.println("숫자를 다시 입력하세요 : ");
+				Scanner nscan = new Scanner(System.in);
+				int nnumber = scan.nextInt();
+				for (int i = 1; i < 10; i++) {
+					System.out.println(nnumber * i);
+					continue;
+				}
 			}
 		}
 //		//4단 
