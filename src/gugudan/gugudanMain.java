@@ -1,5 +1,4 @@
 package gugudan;
-import gugudan.gugudan2;;
 
 public class gugudanMain {
 
