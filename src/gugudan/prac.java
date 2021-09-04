@@ -18,6 +18,7 @@ public class prac {
 			System.out.println(firstValue * (i + 1));
 		}
 		}
+
 	
 //	public static int[] cal(int times) {
 //		int[] number = new int[9];

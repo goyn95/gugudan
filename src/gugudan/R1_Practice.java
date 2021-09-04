@@ -2,6 +2,16 @@ package gugudan;
 import java.util.Scanner;
 
 public class R1_Practice {
+	
+	public static int gugu(int fir, int sec) {
+		
+		int result = 0;
+		for(int i = 0; i < sec; i++) {
+			result = fir * (i + 1);
+			System.out.println(result);
+		}
+		return result;
+	}
 
 	public static void main(String[] args) {
 		
